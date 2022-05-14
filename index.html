@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/main.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Test</title>
+</head>
+<body>
+    
+    <div class="project w-75 bg-info p-5 m-auto">
+        <label for="productName">productName</label>
+        <input type="text" name="productName" id="productName" class="form-control">
+        <label for="productPrice">productPrice</label>
+        <input type="number" name="productPrice" id="productPrice" class="form-control">
+        <label for="productCategory">Product Category</label>
+        <input type="text" name="productCategory" id="productCategory" class="form-control">
+        <label for="productDescription">Description</label>
+        <textarea id="productDescription" class="form-control"></textarea>
+        <button id="addbtn" class="btn btn-primary mt-3 float-end">Add Product</button>
+        <div class="clearfix"></div>
+        <table class="table table-striped">
+            <thead>
+                <th>Product Name</th>
+                <th>Product Price</th>
+                <th>Product Category</th>
+                <th>Description</th>
+            </thead>
+            <tbody id="tableBody">
+                
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
